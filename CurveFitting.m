@@ -29,3 +29,4 @@ excluded=[8 9];
 [f gof]=fit(Rahydro.Distance,Rahydro.Ra_He,"exp1","exclude",excluded,"weights",w);
 figure;
 plot(f,Rahydro.Distance,Rahydro.Ra_He,excluded);
+hidden
